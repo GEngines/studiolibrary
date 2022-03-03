@@ -51,7 +51,7 @@ class GlobalSignal(QtCore.QObject):
 class LibraryWindow(QtWidgets.QWidget):
 
     _instances = {}
-
+    print("adding a print line to test git push")
     DEFAULT_NAME = "Default"
     DEFAULT_SETTINGS = {
         "library": {
